@@ -1,0 +1,52 @@
+{
+  "name": "swp-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node index.js",
+    "devStart": "cross-env NODE_ENV=development nodemon index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SWPSU23/SWP-BE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SWPSU23/SWP-BE/issues"
+  },
+  "homepage": "https://github.com/SWPSU23/SWP-BE#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-redis": "^7.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.40.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "generate-password": "^1.7.0",
+    "googleapis": "^126.0.1",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.3.0",
+    "nodemailer": "^6.9.5",
+    "nodemon": "^2.0.22",
+    "passport": "^0.6.0",
+    "pino": "^8.15.1",
+    "pino-pretty": "^10.2.0",
+    "redis": "^4.6.10",
+    "socket.io": "^4.7.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3",
+    "winston": "^3.8.2"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^5.0.10"
+  }
+}
